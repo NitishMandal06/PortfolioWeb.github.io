@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #000;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+}
+.social-media{
+    position: fixed;
+    background: pink;
+    transform: rotate(90deg);
+    width: 20vh;
+}
