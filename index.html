@@ -11,6 +11,15 @@
     <header></header>
     <div class="social-media">
         <!-- <p> abc</p> -->
+        <button onclick="change('index1.html')">
+            Add history state
+        </button>
+        
+        <script>
+            function change(url) {
+            window.history.pushState( 'new' ,  'title' , url);
+            }
+        </script>
     </div>
 </body>
 </html>
